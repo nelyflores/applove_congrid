@@ -12,7 +12,7 @@
 	 function openModal(){
 	 	console.log("clic")
 	 	document.getElementById('myModal').style.display="block";
-
+	 	
 	 	document.getElementById("imagensota").src= this.src;	
 	 }
 	 var span = document.getElementsByClassName("close")[0];
